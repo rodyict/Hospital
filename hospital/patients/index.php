@@ -10,7 +10,7 @@
 				<th>Name</th>
 				<th>Species</th>
 				<th>Status</th>
-				<th>Client</th>
+				<th><a href="index.php?column=client&sort=ASC">Client</a></th>
 				<th></th>
 				<th></th>
 			</tr>
