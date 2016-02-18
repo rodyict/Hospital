@@ -1,6 +1,8 @@
 <?php
 	require_once "index.logic.php";
 	include "../common/header.php";
+
+	
 ?>
 	<h1>Patiënts</h1>
 	<p class="options"><a href="create.php">create</a></p>
@@ -10,7 +12,7 @@
 				<th>Name</th>
 				<th>Species</th>
 				<th>Status</th>
-				<th><a href="index.php?column=client&sort=ASC">Client</a></th>
+				<th><a href="index.php?column=client&sort=<?= $sort ?>">Client</a></th>
 				<th></th>
 				<th></th>
 			</tr>
