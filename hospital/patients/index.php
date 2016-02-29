@@ -9,9 +9,9 @@
 	<table>
 		<thead>
 			<tr>
-				<th>Name</th>
-				<th>Species</th>
-				<th>Status</th>
+				<th><a href="index.php?column=name&sort=<?= $sort ?>">Name</a></th>
+				<th><a href="index.php?column=soort&sort=<?= $sort ?>">Species</a></th>
+				<th><a href="index.php?column=status&sort=<?= $sort ?>">Status</a></th>
 				<th><a href="index.php?column=client&sort=<?= $sort ?>">Client</a></th>
 				<th></th>
 				<th></th>
